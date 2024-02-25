@@ -24,10 +24,10 @@
   </script>
   
   <main class="flex flex-col flex-1 p-4">
-    <section id="homePage" class="grid grid-cols-1 lg:grid-cols-2 gap-10 py-8 sm:py-14">
+    <section id="homepage" class="grid grid-cols-1 lg:grid-cols-2 gap-10 py-8 sm:py-14">
       <div class="flex flex-col justify-center items-center lg:items-start text-center lg:text-left gap-6 md:gap-8 lg:gap-10">
         <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
-          Welcome to <span class="text-green-500">CoinWeb</span> <br />Your Cryptocurrency Hub
+          Welcome to <span class="font-bold text-transparent bg-gradient-to-r bg-clip-text from-green-500 to-yellow-500">CoinWeb</span> <br />Your Cryptocurrency Hub
         </h2>
         <p class="text-base sm:text-lg md:text-xl">
           <span class="text-green-500">
@@ -37,7 +37,7 @@
       </div>
     </section>
   
-    <section>
+    <section id="price">
       <h2 class="text-2xl font-semibold mb-4">All Cryptocurrencies</h2>
       <table class="min-w-full divide-y divide-gray-200">
         <thead class="bg-gray-50">
